@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html >
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+   <style>
+       .bar{
+           width:500px;
+       }
+   </style>
+</head>
+<body ng-app="myapp" ng-controller="productCtrl">
+    <div class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>
+                        ID
+                    </td>
+                    <td>
+                        ProductName
+                    </td>
+                    <td>
+                        CompanyName
+                    </td>
+                </tr>
+            </thead>
+
+            <tr ng-repeat="product in Products track by product.ID">
+                <td>
+                   <input type="text" ng-model="product.ID"/>  
+                </td>
+                <td>
+                    <input type="text" ng-model="product.ProductName"/>
+                </td>
+                <td>
+                    <input type="text" ng-model="product.CompanyName"/> 
+                </td>
+            </tr>
+        </table>
+        <input type="button" class="pull-right btn btn-primary" value="Update" name="Update" ng-click="updateproducts()" />
+        <label class="alert alert-success" ng-show="update" ng-bind="message"></label> 
+    </div>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/productController.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+G:\LMS\SOLID1\Entites\bin\Debug\Entites.dll
+G:\LMS\SOLID1\Entites\bin\Debug\Entites.pdb
+G:\LMS\SOLID1\Entites\obj\Debug\Entites.dll
+G:\LMS\SOLID1\Entites\obj\Debug\Entites.pdb

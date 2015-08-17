@@ -1,0 +1,12 @@
+G:\LMS\SOLID1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+G:\LMS\SOLID1\DataAccess\bin\Debug\DataAccess.dll
+G:\LMS\SOLID1\DataAccess\bin\Debug\DataAccess.pdb
+G:\LMS\SOLID1\DataAccess\bin\Debug\Entites.dll
+G:\LMS\SOLID1\DataAccess\bin\Debug\StructureMap.dll
+G:\LMS\SOLID1\DataAccess\bin\Debug\StructureMap.Net4.dll
+G:\LMS\SOLID1\DataAccess\bin\Debug\Entites.pdb
+G:\LMS\SOLID1\DataAccess\bin\Debug\StructureMap.pdb
+G:\LMS\SOLID1\DataAccess\bin\Debug\StructureMap.xml
+G:\LMS\SOLID1\DataAccess\bin\Debug\StructureMap.Net4.pdb
+G:\LMS\SOLID1\DataAccess\obj\Debug\DataAccess.dll
+G:\LMS\SOLID1\DataAccess\obj\Debug\DataAccess.pdb
