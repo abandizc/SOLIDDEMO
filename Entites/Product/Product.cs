@@ -12,6 +12,7 @@ namespace Entites.Product
 
         public string ProductName { get; set; }
         public string CompanyName { get; set; }
+        public int ProductType { get; set; }
 
         public virtual int Price()
         {

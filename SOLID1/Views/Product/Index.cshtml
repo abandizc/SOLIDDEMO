@@ -4,19 +4,19 @@
 
 <!DOCTYPE html>
 
-<html >
+<html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
-   <style>
-       .bar{
-           width:500px;
-       }
-   </style>
+    <style>
+        .bar {
+            width: 500px;
+        }
+    </style>
 </head>
 <body ng-app="myapp" ng-controller="productCtrl">
     <div class="container">
-        <table class="table table-striped">
+        <table class="table table-striped table-bordered table-responsive ">
             <thead>
                 <tr>
                     <td>
@@ -33,18 +33,19 @@
 
             <tr ng-repeat="product in Products track by product.ID">
                 <td>
-                   <input type="text" ng-model="product.ID"/>  
+                    <input type="text" ng-model="product.ID" />
                 </td>
                 <td>
-                    <input type="text" ng-model="product.ProductName"/>
+                    <input type="text" ng-model="product.ProductName" />
                 </td>
                 <td>
-                    <input type="text" ng-model="product.CompanyName"/> 
+                    <input type="text" ng-model="product.CompanyName" />
+                    <input type="hidden" ng-model="product.ProductType" />
                 </td>
             </tr>
         </table>
         <input type="button" class="pull-right btn btn-primary" value="Update" name="Update" ng-click="updateproducts()" />
-        <label class="alert alert-success" ng-show="update" ng-bind="message"></label> 
+        <label class="alert alert-success" ng-show="update" ng-bind="message"></label>
     </div>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />

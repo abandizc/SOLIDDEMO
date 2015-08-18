@@ -75,9 +75,5 @@ namespace Service
             return true;
         }
 
-        public void calculate(ElectricalProduct electricProduct)
-        {
-
-        }
     }
 }

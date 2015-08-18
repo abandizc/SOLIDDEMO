@@ -1,18 +1,20 @@
 ﻿var app = angular.module("myapp", []);
 
-app.controller("productCtrl", ["$scope","repo",function ($scope,repo) {
+app.controller("productCtrl", ["$scope", "repo", function ($scope, repo) {
 
     $scope.Products = [{
         ID: 1,
         ProductName: "Test",
-        CompanyName: "companyTest"
+        CompanyName: "companyTest",
+        ProductType: "2"
     },
     {
         ID: 2,
         ProductName: "2",
-        CompanyName: "companyTest2"
-    }
-    ]
+        CompanyName: "companyTest2",
+        ProductType: "3"
+    }]
+
     $scope.Test = "Test";
     $scope.update = false;
     $scope.updateproducts = function () {
@@ -27,7 +29,6 @@ app.controller("productCtrl", ["$scope","repo",function ($scope,repo) {
         });
     };
 
-    
 }]);
 
 app.service("repo", ["$http", function ($http) {

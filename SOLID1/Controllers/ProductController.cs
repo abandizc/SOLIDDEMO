@@ -48,7 +48,6 @@ namespace SOLID1.Controllers
                     success = false
                 }, JsonRequestBehavior.AllowGet);
             }
-            return null;
         }
     }
 }
